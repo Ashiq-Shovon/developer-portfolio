@@ -1,0 +1,78 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+/* section 1 */
+section{
+    display: grid;
+    justify-content: center;
+    /* background-color: red; */
+    
+    
+}
+.orange{
+    color: orange;
+}
+.width{
+    width:1150px;
+}
+.hero{
+    display: flex;
+    /* display: grid; */
+    justify-items: center;
+    
+    
+}
+.left-border{
+    border-left: 3px solid brown;
+}
+#image{
+    /* border-radius: 50% ; */
+    width: 70%;
+}
+.person-center{
+    display: grid;
+    justify-items: center;
+}
+.half-width{
+    display: grid;
+    justify-self: center;
+    align-self: center;
+    /* background-color: yellow; */
+    
+}
+.grid{
+    display: grid;
+    /* justify-content: center; */
+}
+.button{
+    text-decoration:none;
+}
+
+/* section 1 end */
+
+
+/* section 2 start */
+.card{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.card-body{
+    width:315px;
+    height:300px;
+    border-radius: 25px;
+    padding: 1.5rem;
+}
+.bg-success{
+  background-color: rgb(243, 167, 167);
+}
+.bg-warning{
+  background-color: rgb(236, 206, 165);
+}
+.bg-info{
+ background-color: rgb(176, 231, 231);
+}
+.img-fluid{
+    width:40%;
+}
+/* section 2 end */
