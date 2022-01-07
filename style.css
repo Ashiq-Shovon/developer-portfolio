@@ -1,5 +1,7 @@
 body{
-    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Open Sans', sans-serif; */
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
 }
 /* section 1 */
 section{
@@ -46,6 +48,13 @@ section{
 }
 .button{
     text-decoration:none;
+    background-color: rgb(236, 200, 107);
+    border-radius: 12px;
+    padding: 10px 20px;
+    
+}
+.mt{
+    margin-top: 15px;
 }
 
 /* section 1 end */
@@ -76,3 +85,35 @@ section{
     width:40%;
 }
 /* section 2 end */
+/* section 3 start */
+.img{
+    width:30%;
+}
+.d-flex{
+    display: flex;
+}
+.content{
+    
+    display:grid;
+    justify-self: center;
+    align-self: center;
+}
+.p{
+  padding: 40px;
+}
+.pe{
+    padding-right:30px;
+}
+.margin-top{
+    margin-top: 80px;
+}
+.text-center{
+    text-align: center;
+}
+/* section 3 end */
+
+footer{
+    height: 150px;
+    width: 100%;
+    background-color: black;
+}
